@@ -1,0 +1,53 @@
+
+p,h3{
+    margin: 0;
+}
+
+.block{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+}
+
+.box{
+    border: 2px solid rgb(58, 66, 83);
+    padding: 40px 15px;
+}
+
+.viewport{
+    position: relative;
+    overflow: hidden;
+}
+
+.scrollbar{
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background-color: rgba(171, 171, 224, 0.678);
+    border-radius: 50px;
+}
+
+.scroller{
+    width: 100%;
+    background-color: rgb(82, 82, 150);
+    position: absolute;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.item{
+    width: calc(100% + 5px);
+    height: 200px;
+    overflow: auto;
+    padding-right: 20px;
+}
+.title_item{
+    font-size: 30px;
+    color: royalblue;
+    margin-bottom: 30px;
+}
